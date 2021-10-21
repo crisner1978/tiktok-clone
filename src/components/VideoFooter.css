@@ -2,7 +2,7 @@
     position: relative;
     color: #fff;
     bottom: 150px;
-    margin-left: 40px;
+    margin-left: 15px;
     display: flex;
 }
 
@@ -11,21 +11,23 @@
 }
 
 .videoFooter_text > p {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .videoFooter_text > h3 {
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .videoFooter_ticker > .ticker {
     height: fit-content;
-    margin-left: 30px;
-    width: 60%;
+    margin-left: 25px;
+    width: 65%;
 }
 
 .videoFooter_icon {
     position: absolute;
+    /* left: -5px; */
 }
 
 .videoFooter_song {
@@ -37,8 +39,8 @@
     height: 50px;
     filter: invert(1);
     position: absolute;
-    bottom: 0;
-    right: 20px;
+    bottom: -5px;
+    right: 10px;
 }
 
 @keyframes spinTheRecord {
